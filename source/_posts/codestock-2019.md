@@ -1,7 +1,7 @@
 ---
 title: CodeStock 2019
 date: 2019-04-14 16:41:54
-tags: codestock
+tags: conference
 ---
 
 Knoxville's CodeStock 2019 is a wrap! This was my 4th year attending. A few notable talks:
