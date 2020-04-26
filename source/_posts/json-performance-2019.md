@@ -14,9 +14,9 @@ For many years, Json.NET has been the go-to library for serializing and deserial
 
 System.Text.Json corrects both these issues. It’s available by default in all .NET Core projects, and it prioritizes high performance with a low memory footprint. System.Text.Json uses Span<T\> and ReadOnlySequence<T\>, constructs that were introduced into .NET Core last year. It also supports UTF-8 natively so that JSON does not have to be transcoded into UTF-16, the format used by .NET’s string class.
 
-I wrote a short console app to compare Json.NET and System.Text.Json performance on my laptop. The console app has two inputs--file path and number of iterations. File path is a path to a JSON file. Number of iterations is the iterations count. An iteration is a single deserialize-serialize run on the JSON file. The console app then outputs min, max, and average runtimes for both JSON libraries.
+I wrote a short console app to compare Json.NET and System.Text.Json performance on my laptop. The console app has two inputs--file path and number of iterations. File path is a path to a JSON file. Number of iterations is the iterations count where an iteration is a single deserialize-serialize run on the JSON file. The console app then outputs min, max, and average runtimes for both JSON libraries.
 
-Below are some sample runs on 3 datasets from Kaggle.com.
+Below are some sample runs on 3 datasets from Kaggle.com. Run times are given in milliseconds (ms).
 
 ### Laptop Specs
 
