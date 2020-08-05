@@ -458,7 +458,7 @@ body {
   font-display: swap;
   font-weight: 400;
   font-size: 14px;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: Verdana, Helvetica, sans-serif;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   flex: 1;
@@ -1443,7 +1443,7 @@ pre {
   border: 1px dotted #666;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Meslo LG", Menlo, DejaVu Sans Mono, monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1454,9 +1454,11 @@ pre code {
 }
 code {
   padding: 0 5px;
-  border: 1px dotted #666;
+  border: 1px solid #666;
   border-radius: 2px;
   -webkit-border-radius: 2px;
+  font-size: 13px;
+  font-family: "Meslo LG", Menlo, DejaVu Sans Mono, monospace;
 }
 .highlight {
   overflow-x: auto;
@@ -1464,7 +1466,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #212326;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Meslo LG", Menlo, DejaVu Sans Mono, monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
