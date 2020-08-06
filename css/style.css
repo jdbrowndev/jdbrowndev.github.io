@@ -319,7 +319,7 @@
 body h1,
 body .h1 {
   display: block;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   color: #5897af;
   letter-spacing: 0.01em;
@@ -535,6 +535,9 @@ body {
   background-size: 100% 6px;
   background-repeat: repeat-x;
 }
+.post {
+  margin-bottom: 32px;
+}
 @media (min-width: 540px) {
   .image-wrap {
     flex-direction: row;
@@ -555,6 +558,10 @@ body {
   .px3 {
     padding-right: 1rem;
     padding-left: 1rem;
+  }
+  .py4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .my4 {
     margin-top: 2rem;
@@ -662,7 +669,7 @@ body {
   }
   #header #nav ul li.icon {
     position: absolute;
-    top: 77px;
+    top: 46px;
     right: 1rem;
     display: inline-block;
   }
@@ -1018,6 +1025,7 @@ body {
 }
 .post-list {
   padding: 0;
+  margin-bottom: 3rem;
 }
 .post-list .post-item {
   margin-bottom: 1rem;
